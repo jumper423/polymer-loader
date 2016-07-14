@@ -1,6 +1,6 @@
 {
   "name": "webpack-polymer-loader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Webpack loader to automatically require any resources related to the required one",
   "keywords": [
     "webpack",
