@@ -1,6 +1,6 @@
 {
   "name": "webpack-polymer-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Webpack loader to automatically require any resources related to the required one",
   "keywords": [
     "webpack",
@@ -17,10 +17,11 @@
     "url": "https://github.com/jumper423"
   },
   "main": "index.js",
-  "peerDependencies": {
-    "webpack": "^1.4.3",
-    "loader-utils": "^0.2.4",
-    "baggage-loader": "^0.2.1"
+  "dependencies": {
+    "baggage-loader": "^0.2.4",
+    "loader-utils": "^0.2.15",
+    "source-map": "^0.5.6",
+    "webpack": "^1.13.1"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -29,8 +30,5 @@
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/jondum/polymer-loader/issues"
-  },
-  "dependencies": {
-    "source-map": "^0.5.6"
   }
 }
