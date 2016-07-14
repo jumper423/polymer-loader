@@ -1,6 +1,6 @@
 {
   "name": "webpack-polymer-loader",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Webpack loader to automatically require any resources related to the required one",
   "keywords": [
     "webpack",
@@ -20,6 +20,7 @@
   "dependencies": {
     "baggage-loader": "^0.2.4",
     "loader-utils": "^0.2.15",
+    "source-map": "^0.5.6",
     "webpack": "^1.13.1"
   },
   "engines": {
