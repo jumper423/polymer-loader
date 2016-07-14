@@ -1,27 +1,25 @@
-
 {
-  "name": "polymer-loader",
-  "version": "0.3.0",
+  "name": "webpack-polymer-loader",
+  "version": "0.0.2",
   "description": "Webpack loader to automatically require any resources related to the required one",
   "keywords": [
     "webpack",
     "loader"
   ],
-  "homepage": "https://github.com/jondum/polymer-loader",
+  "homepage": "https://github.com/jumper423/polymer-loader",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jondum/polymer-loader.git"
+    "url": "git://github.com/jumper423/polymer-loader.git"
   },
   "author": {
-    "name": "Jonathan Dumaine",
-    "email": "jonathan.dumaine@dumstruck.com",
-    "url": "https://github.com/jondum"
+    "name": "Влад Пасечник",
+    "email": "jump.e.r@yandex.ru",
+    "url": "https://github.com/jumper423"
   },
   "main": "index.js",
   "peerDependencies": {
     "webpack": "^1.4.3",
     "loader-utils": "^0.2.4",
-    "source-map": "^0.5.6",
     "baggage-loader": "^0.2.1"
   },
   "engines": {
@@ -31,5 +29,8 @@
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/jondum/polymer-loader/issues"
+  },
+  "dependencies": {
+    "source-map": "^0.5.6"
   }
 }
